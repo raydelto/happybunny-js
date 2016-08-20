@@ -10,9 +10,7 @@ cc.Class({
     move: function move(touch, event) {
         var target = event.getCurrentTarget();
         var box = target.node.getBoundingBox();
-        // console.log(box);
         var point = touch.getLocation();
-        // console.log(point);
         if (this.willMove) {
             target.node.setPositionX(point.x - 384);
         }
@@ -26,7 +24,6 @@ cc.Class({
         if (cc.rectContainsPoint(box, cc.p(point.x - 384, point.y - 640))) {
             this.willMove = true;
         }
-
         return true;
     },
 

@@ -4,6 +4,5 @@ cc.Class({
     onLoad: function () {
         var move = cc.moveTo(4, this.node.getPositionX(), -780);
         this.node.runAction(move);
-
     }
 });
