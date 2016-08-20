@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bunny_right",
+    "texture": "7ba82b0b-6d50-41c7-bfab-e004b50e398f",
+    "atlas": "",
+    "rect": [
+      5,
+      9,
+      121,
+      236
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      130,
+      253
+    ],
+    "rotated": 0
+  }
+}

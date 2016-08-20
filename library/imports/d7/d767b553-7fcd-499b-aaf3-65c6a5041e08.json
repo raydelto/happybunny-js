@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bunny_bg",
+    "texture": "7e2cc3a5-3e3f-4bb5-87e9-b4fc0bdc3cff",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      768,
+      1280
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      768,
+      1280
+    ],
+    "rotated": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bunny_eating",
+    "texture": "3eb6c380-d0ab-45df-9ddf-d2f5d033d449",
+    "atlas": "",
+    "rect": [
+      5,
+      9,
+      121,
+      236
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      130,
+      253
+    ],
+    "rotated": 0
+  }
+}

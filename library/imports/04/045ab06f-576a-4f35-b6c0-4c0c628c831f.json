@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gameover",
+    "texture": "0a54c588-b244-43ad-aa7c-aa533aced19e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      768,
+      1280
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      768,
+      1280
+    ],
+    "rotated": 0
+  }
+}

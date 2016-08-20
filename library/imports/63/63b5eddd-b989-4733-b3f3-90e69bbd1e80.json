@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "carrot_counter",
+    "texture": "b8dc6e1b-6d26-4d02-b78f-02de3cc370f1",
+    "atlas": "",
+    "rect": [
+      4,
+      1,
+      13,
+      51
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      21,
+      54
+    ],
+    "rotated": 0
+  }
+}

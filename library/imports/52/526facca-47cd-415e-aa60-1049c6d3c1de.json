@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bunny_idle",
+    "texture": "cf18a732-b8d6-4985-b69f-8d7b854038c9",
+    "atlas": "",
+    "rect": [
+      5,
+      3,
+      121,
+      247
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      130,
+      253
+    ],
+    "rotated": 0
+  }
+}

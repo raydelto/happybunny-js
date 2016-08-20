@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bunny_black",
+    "texture": "1c35baf0-a4d6-4373-b967-e48175dfb247",
+    "atlas": "",
+    "rect": [
+      2,
+      1,
+      127,
+      242
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      130,
+      243
+    ],
+    "rotated": 0
+  }
+}

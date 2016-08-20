@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bosque_bg",
+    "texture": "4143d2a4-a583-425b-9df4-f4d8a7ee0d0a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      768,
+      1280
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      768,
+      1280
+    ],
+    "rotated": 0
+  }
+}
