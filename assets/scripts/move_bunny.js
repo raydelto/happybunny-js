@@ -7,17 +7,17 @@ cc.Class({
     willMove: false,
     move:function(touch, event){
         var target = event.getCurrentTarget();
-        var box = target.node.getBoundingBox();
+        var box = target.getBoundingBox();
         var point = touch.getLocation();
         if(this.willMove){
-            target.node.setPositionX(point.x - 384);
+            target.setPositionX(point.x - 384);
         }
         return false;
     },
     touch:function(touch, event){
       this.willMove = false;
       var target = event.getCurrentTarget();
-      var box = target.node.getBoundingBox();
+      var box = target.getBoundingBox();
       var point = touch.getLocation();
       if(cc.rectContainsPoint(box,cc.p(point.x - 384, point.y - 640))){
             this.willMove = true;
@@ -31,6 +31,6 @@ cc.Class({
           swallowTouches: false,
           onTouchBegan: this.touch,
           onTouchMoved: this.move
-      },this);  
+      },this.node);  
     }
 });
