@@ -14,24 +14,32 @@ cc.Class({
         // ...
     },
     bunny: null,
+    carrot: null,
 
     // use this for initialization
     onLoad: function () {
+        cc.log('papa');
         this.bunny = this.node.getChildByName('bunny_idle');
+        this.carrot = this.node.getChildByName('carrot_left');
     },
 
     // called every frame, uncomment this function to activate update callback
     update: function (dt) {
-
-      if(!this.bunny){
+      if(!this.bunny || !this.carrot){
           return;
       }
       
+      if(this.carrot.y < -770){
+          this.carrot.y = 711;
+          this.carrot.stopAllActions();
+          var move = cc.moveTo(Math.floor((Math.random() * 5) + 2), this.carrot.getPositionX(), -780);
+          this.carrot.runAction(move);
+      }
+      
       var bunnyBox = this.bunny.getBoundingBox();
-      var carrotBox = this.node.getBoundingBox();
+      var carrotBox = this.carrot.getBoundingBox();
       if(cc.rectIntersectsRect(bunnyBox, carrotBox)){
-            this.bunny.setOpacity(0);
-            var action = cc.blink(2, 10);
+            var action = cc.blink(1, 3);
             this.bunny.runAction(action);
        }
     },
